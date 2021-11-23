@@ -4,7 +4,7 @@
 
 # My Report, Video and sourceCodeLink
 
-### ICP Report: https://docs.google.com/document/d/1kLz4GI0u3Q5JrIgtdu5nhPzY9AU0uItJkwuUkBldxOE/edit
+### ICP Report:https://docs.google.com/document/d/1kLz4GI0u3Q5JrIgtdu5nhPzY9AU0uItJkwuUkBldxOE/edit?usp=sharing
 
 ### ICP Video: https://youtu.be/Fu0YXdcVw6s
 
