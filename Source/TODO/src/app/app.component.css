@@ -1,0 +1,46 @@
+body {
+    margin-top: 5%;
+  }
+  #todo {
+    margin-left: 1px;
+    padding-top: 35px;
+    border-radius: 20px;
+    width: 100%;
+    color: rgb(0, 119, 230);
+  }
+  ::placeholder {
+    color: rgb(15, 15, 15);
+  }
+  
+  span {
+    background: lightgrey;
+  }
+  
+  #addItem {
+    background: lightgray;
+  }
+  
+  .bt {
+    background-color: rgb(14, 109, 133);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin: 2px;
+  }
+  .bt2 {
+    background-color: rgb(223, 137, 8);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin: 2px;
+  }
+  
+  table, th, td {
+    border: none;
+  }
+  th, td {
+    font-size: large;
+  }
+  

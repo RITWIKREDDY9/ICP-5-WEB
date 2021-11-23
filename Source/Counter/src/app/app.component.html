@@ -1,0 +1,29 @@
+
+<div class="event-form">
+  <p *ngIf="ispresent" class="error">Date need to be greater than present date</p>
+  <div class="form-item">
+      <label for="birthday" style="color: rgb(248, 120, 0);font-size: large;font: bold;">Your Date</label>
+      <input type="date"  id="eventDate" name="eventDate" (change)="initializeCounter()" [(ngModel)]="dynamicDate">
+  </div>
+</div>
+
+<div class="event-container">
+  <div class="timer">
+      <div class="days flex-item">
+          <h3 class="big-text">{{counter[0]}}</h3>
+          <p class="small-text">Days</p>
+      </div>
+      <div class="hours flex-item">
+          <h3 class="big-text ">{{counter[1]}}</h3>
+          <p class="small-text">Hours</p>
+      </div>
+      <div class="minutes flex-item">
+          <h3 class="big-text">{{counter[2]}}</h3>
+          <p class="small-text">Minutes</p>
+      </div>
+      <div class="seconds flex-item">
+          <h3 class="big-text">{{counter[3]}}</h3>
+          <p class="small-text">Seconds</p>
+      </div>
+  </div>
+</div>
